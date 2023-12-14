@@ -25,6 +25,10 @@ body{
 .text-link:hover{
     text-decoration: underline;
 }
+
+.fa{
+    color: white;
+}
 /* basic styling for all links */
 
 /* navbar */
@@ -55,6 +59,7 @@ nav ul .text-link{
     font-size: 15px;
     font-weight: bold;
 }
+
 /* end navbar */
 
 /* card layout */
@@ -147,6 +152,10 @@ footer div.container{
 footer ul{
     list-style: none;
     display: flex;
-    gap: 0.5em;
+    gap: 1em;
+}
+
+footer ul li a{
+    color: white;
 }
 /* end footer */
