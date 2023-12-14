@@ -63,6 +63,7 @@ main.container{
     flex-wrap: wrap;
     gap: 20px;
     padding-top: 130px;
+    padding-bottom: 60px;
 }
 
 main .card{
@@ -130,3 +131,22 @@ main .card{
 }
 /* end content of each card */
 
+/* footer */
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    padding: 30px;
+    border-bottom: 2px solid white;
+    line-height: 1.5em;
+}
+
+footer div.container{
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
+}
+/* end footer */
