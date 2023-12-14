@@ -114,6 +114,8 @@ main .card{
 
 .price{
     display: inline-block;
+    color: red;
+    font-weight: bold;
 }
 
 .price::after{
@@ -121,12 +123,9 @@ main .card{
     margin-left: 2px;
 }
 
-.price.discount{
-    color: red;
-    font-weight: bold;
-}
-
 .price.old{
+    color: black;
+    font-weight: 400;
     text-decoration: line-through;
 }
 /* end content of each card */
