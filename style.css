@@ -33,6 +33,7 @@ nav{
     width: 100vw;
     padding: 20px;
     background-color: #FF6900;
+    z-index: 10;
 }
 
 nav .container{
@@ -56,6 +57,7 @@ nav ul .text-link{
 }
 /* end navbar */
 
+/* card layout */
 main.container{
     justify-content: space-between;
     flex-wrap: wrap;
@@ -65,11 +67,45 @@ main.container{
 
 main .card{
     max-width: calc((100% - 40px) / 3);
+    position: relative;
 }
+/* card layout */
 
+/* content of each card */
 .card img{
     width: 100%;
     display: block;
+}
+
+.tags{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+.tag{
+    padding: 7px 10px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+.tg-red{
+    background-color: red;
+}
+
+.tg-green{
+    background-color: green;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 20px;
+
+    padding: 10px 15px;
+    background-color: white;
 }
 
 .name-article{
@@ -93,5 +129,5 @@ main .card{
 .price.old{
     text-decoration: line-through;
 }
-
+/* end content of each card */
 
