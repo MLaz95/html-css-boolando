@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* reset */
+
+body{
+    font-family: sans-serif;
+}
+
+/* basic styling for all links */
+.text-link{
+    text-decoration: none;
+    color: white;
+}
+
+.text-link:hover{
+    text-decoration: underline;
+}
+/* basic styling for all links */
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    padding: 20px;
+    background-color: #FF6900;
+}
+
+nav .logo{
+    width: 135px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
+}
+
+nav ul .text-link{
+    font-size: 15px;
+    font-weight: bold;
+}
+/* end navbar */
