@@ -55,3 +55,43 @@ nav ul .text-link{
     font-weight: bold;
 }
 /* end navbar */
+
+main.container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 130px;
+}
+
+main .card{
+    max-width: calc((100% - 40px) / 3);
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.name-article{
+    font-weight: bold;
+}
+
+.price{
+    display: inline-block;
+}
+
+.price::after{
+    content: "\20AC";
+    margin-left: 2px;
+}
+
+.price.discount{
+    color: red;
+    font-weight: bold;
+}
+
+.price.old{
+    text-decoration: line-through;
+}
+
+
