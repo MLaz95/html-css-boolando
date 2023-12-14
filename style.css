@@ -125,9 +125,14 @@ main .card{
     top: 10px;
     right: 0;
     font-size: 20px;
+    transition: 0.2s;
 
     padding: 10px 15px;
     background-color: white;
+}
+
+.heart:hover{
+    color: red;
 }
 
 .name-article{
